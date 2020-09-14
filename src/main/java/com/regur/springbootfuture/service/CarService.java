@@ -43,7 +43,7 @@ public class CarService {
                     final String[] data = line.split(";");
                     final Car car = new Car();
                     car.setManufacturer(data[0]);
-                    car.setManufacturer(data[1]);
+                    car.setModel(data[1]);
                     car.setType(data[2]);
                     cars.add(car);
                 }
